@@ -1,0 +1,58 @@
+// Single line comment
+
+/* Multiple line comments
+ * 
+ */
+
+import java.util.Scanner;
+import java.util.*;
+
+//A class defines the attributes (fields) and capabilities (methods) of a real world object
+public class Animal {
+	
+	// 'final' mans it is a constant classes can't be subclassed or changed
+	// static means this number is shared by all objects of type Animal
+	public static final double FAVNO = 1.6189;
+
+	// Variables (Fields) start with a letter, underscore or $
+		// Private fields can only be accessed by other methods in the class
+		
+		// Strings are objects that hold a series of characters
+		private String name;
+		
+		// An integer can hold values from -2 ^ 31 to (2 ^ 31) -1
+		private int weight;
+		
+		// Booleans have a value of true or false
+		private boolean hasOwner = false;
+		
+		// Bytes can hold the values between -128 to 127
+		private byte age;
+		
+		// Longs can hold the values between -2 ^ 63 to (2 ^ 63) - 1
+		private long uniqueID;
+		
+		// Chars are unsigned ints that represent UTF-16 codes from 0 to 65,535
+		private char favoriteChar;
+		
+		// Doubles are 64 bit IEEE 754 floating points with decimal values
+		private double speed;
+		
+		// Floats are 32 bit IEEE 754 floating points with decimal values
+		private float height;
+		
+		// Static variables have the same value for every object 
+		// Any variable or function that doesn't make sense for an object to have should be made static
+		// protected means that this value can only be accessed by other code in the same package
+		// or by subclasses in other packages
+		
+		protected static int numberOfAnimals = 0;
+		
+		// A Scanner object allows you to except user input from the keyboard
+		static Scanner userInput = new Scanner(System.in);
+		
+		
+		
+	
+
+}

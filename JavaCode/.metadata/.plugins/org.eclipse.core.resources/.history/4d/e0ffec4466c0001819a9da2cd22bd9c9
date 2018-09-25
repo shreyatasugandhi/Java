@@ -1,0 +1,12 @@
+// Single line comment
+
+/* Multiple line comments
+ * 
+ */
+
+import java.util.Scanner;
+import java.util.*;
+
+public class Animal {
+
+}
